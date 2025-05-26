@@ -6,6 +6,7 @@ Este projeto em Python utiliza Pygame para simular o famoso experimento da dupla
 Fótons são emitidos em direção a uma barreira com duas fendas. Ao atingir uma tela de detecção, seus impactos seguem a distribuição probabilística da interferência quântica, acumulando-se gradualmente para formar franjas claras e escuras — o padrão de interferência.
 
 A distribuição de probabilidade usada para simular os impactos é dada por:
+
 I(y) ∝ cos²(π·d·y / (λ·L)) · sinc²(π·a·y / (λ·L))
 
 Onde:
